@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-peach-light: #FFCDB2;
+    --color-peach-dark: #FFB4A2;
+    --color-pastel-light: #E5989B;
+    --color-pastel-dark: #B5828C;
+}
+
+header {
+    align-items: center;
+    justify-items: center;
+}
+
+body {
+    background-color: var(--color-pastel-light);
+
+}
+
+#family-description {
+    width: auto;
+    background-color: var(--color-pastel-dark);
+}
+
+#content  {
+    justify-items: center;
+}
+
+
+/* About page styling */
+
+#about {
+    border: 2px solid #333; /* Border around each box */
+    padding: 15px; /* Space inside the box */
+    margin: 10px 0; /* Space between boxes */
+    background-color: var(--color-peach-dark); /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.about-box {
+    border: 2px solid #333; /* Border around each box */
+    padding: 15px; /* Space inside the box */
+    margin: 10px 0; /* Space between boxes */
+    background-color: var(--color-peach-light); /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+
+/* Menu page styling */
+
+
+#menu-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 40px;
+padding: 5%
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-pastel-light-color);
+    color: var(--color-peach-dark);
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.menu-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+

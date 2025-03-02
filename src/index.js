@@ -1,25 +1,13 @@
-import loadHome from "./home";
+import loadHome from "./contact";
 import loadAbout from "./about";
 import loadMenu from "./menu";
+import './style.css';
 
 
-/* Navigation */
-
-/* The home button */
-/* loadHome();
- */
-
-/* The about button */
-/* loadAbout()
- */
-/* The menu button */
-/* loadMenu();
- */
-function addButtons () {
-
+function loadButtons () {
     const currentDiv = document.getElementById("content"); 
-    const homeButton = document.getElementById('home');
-    const aboutButton = document.getElementById('about');
+    const homeButton = document.getElementById('contact');
+    const aboutButton = document.getElementById('about-button');
     const menuButton = document.getElementById('menu');
 
 
@@ -37,5 +25,5 @@ function addButtons () {
 
 }
 
-addButtons();
+loadButtons();
 
